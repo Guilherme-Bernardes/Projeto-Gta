@@ -1,5 +1,10 @@
-/*
+const musicaGta=new Audio("/songs/musicagta.mp3")
 
+musicaGta.play()
+musicaGta.volume=0.05
+musicaGta.loop=true
+
+/*
 Objetivo 1 - quando o usuário clicar no botão de seleção de plataformas deve abrir uma caixa com os botões de seleção de plataforma
     Passo 1 - pegar o botão de seleção de plataformas no JS pra poder verificar quando o usuário clicar em cima dele
 
